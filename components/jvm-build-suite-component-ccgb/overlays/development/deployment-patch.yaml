@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-ccgb
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/jvm-build-pdzb-tenant/jvm-build-suite-application-itkc/jvm-build-suite-component-ccgb@sha256:a8273946d35c6044cabfcc197225f65164d08a4d63e283fdbe910e700a653078
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
